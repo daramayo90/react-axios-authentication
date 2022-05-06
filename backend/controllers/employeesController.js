@@ -41,19 +41,32 @@ const updateEmployee = (req, res) => {
     const unsortedArray = [...filteredArray, employee];
 
     data.setEmployees(unsortedArray.sort((a,b) => a.id > b.id ? 1 : a.id < b.id ? -1 : 0));
+
     res.json(data.employees);
 };
 
 const deleteEmployee = (req, res) => {
-    res.json({
-        "id": req.body.id
-    })
+    const employee = data.employees.find(emp => emp.id === parseInt(req.body.id));
+    
+    if (!employee) {
+        return res.status(400).json({ 'message': `Employee ID ${req.body.id} not found`});
+    }
+
+    const filteredArray = data.employees.filter(emp => emp.id !== parseInt(req.body.id));
+
+    data.setEmployees([...filteredArray]);
+
+    res.json(data.employees);
 };
 
 const getEmployee = (req, res) => {
-    res.json({
-        "id": req.params.id
-    })
+    const employee = data.employees.find(emp => emp.id === parseInt(req.params.id));
+    
+    if (!employee) {
+        return res.status(400).json({ 'message': `Employee ID ${req.params.id} not found`});
+    }
+
+    res.json(employee);
 };
 
 module.exports = {
