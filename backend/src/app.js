@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -8,6 +9,11 @@ const { errorHandler } = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/jwt');
 const cookieParser = require('cookie-parser');
 const credentials = require('./middleware/credentials');
+const mongoose = require('mongoose');
+const connectDB = require('./config/dbConnection');
+
+// Connect to MongoDB
+connectDB();
 
 // custom middleware logger
 app.use(logger);
