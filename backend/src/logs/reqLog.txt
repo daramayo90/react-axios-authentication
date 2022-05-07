@@ -144,3 +144,5 @@
 20220507	14:53:20	07fb91e3-3300-4f20-96f3-e6fddd9efbe9	POST	undefined	/auth
 20220507	14:53:48	52e8be21-b60e-4946-be95-98302b9ee1a6	POST	undefined	/employees
 20220507	14:53:56	c58ae714-dd77-485b-a506-dad05388e939	DELETE	undefined	/employees
+20220507	15:51:18	f65cb154-5ab7-4df8-9534-2a448f1ed035	POST	undefined	/register
+20220507	15:52:01	2684aca0-3f45-4a37-862f-fd4071158ca8	POST	undefined	/register
