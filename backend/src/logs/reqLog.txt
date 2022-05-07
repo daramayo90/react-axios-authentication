@@ -132,3 +132,15 @@
 20220507	13:43:08	252db9d7-64b5-4889-9d90-c73586e683c5	GET	undefined	/refresh
 20220507	13:44:33	93e08718-c353-4373-82b7-88f190fc06f8	POST	undefined	/auth
 20220507	13:44:37	3e206cc9-e034-4fe2-a177-57c22f359abb	GET	undefined	/refresh
+20220507	14:49:55	4735b36b-cef8-4f8e-8b73-5840e850bc27	POST	undefined	/auth
+20220507	14:50:17	dd40d730-ed05-4dea-8ec5-1e47828505b4	GET	undefined	/employees
+20220507	14:50:41	34692fe2-50ba-4509-bb96-4afcf4c1c8d5	POST	undefined	/employees
+20220507	14:51:29	ef2ca047-b085-4d73-ada5-82366fda2ad6	POST	undefined	/auth
+20220507	14:51:46	904a94db-99d9-479c-854d-bf817d6bde06	POST	undefined	/employees
+20220507	14:52:02	d80231ea-d9ec-447f-a0e6-cde15b51059b	DELETE	undefined	/employees
+20220507	14:52:43	d52ef2e1-809a-4559-a73a-6b74baa9b90c	POST	undefined	/auth
+20220507	14:52:48	e41dc342-a752-44e7-ae4c-c647cf2da0b0	POST	undefined	/auth
+20220507	14:53:02	4bff75cc-c4cf-4f3c-aaf0-b6c0e3dc3534	DELETE	undefined	/employees
+20220507	14:53:20	07fb91e3-3300-4f20-96f3-e6fddd9efbe9	POST	undefined	/auth
+20220507	14:53:48	52e8be21-b60e-4946-be95-98302b9ee1a6	POST	undefined	/employees
+20220507	14:53:56	c58ae714-dd77-485b-a506-dad05388e939	DELETE	undefined	/employees
