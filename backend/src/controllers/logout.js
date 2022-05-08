@@ -14,8 +14,8 @@ const handleLogout = async (req, res) => {
     if (!foundUser) {
         res.clearCookie('jwt', refreshToken, {
             httpOnly: true,
-            sameSite: 'None'
-            // secure: true (?)
+            sameSite: 'None',
+            secure: true
         });
 
         return res.sendStatus(204); // No content to send back
@@ -28,8 +28,8 @@ const handleLogout = async (req, res) => {
     // In PRD -> secure: true - only serves on https
     res.clearCookie('jwt', refreshToken, {
         httpOnly: true,
-        sameSite: 'None'
-        // secure: true (?)
+        sameSite: 'None',
+        secure: true
     });
 
     res.sendStatus(204); // No content to send back

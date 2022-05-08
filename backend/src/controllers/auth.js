@@ -19,7 +19,7 @@ const login = async (req, res) => {
     const match = await bcrypt.compare(pwd, foundUser.password);
 
     if (match) {
-        const roles = Object.values(foundUser.roles);
+        const roles = Object.values(foundUser.roles).filter(Boolean);
 
         // Create JWTs (accessToken stored in Memory only in client side)
         const accessToken = jwt.sign(
@@ -47,12 +47,12 @@ const login = async (req, res) => {
         res.cookie('jwt', refreshToken, {
             httpOnly: true,
             sameSite: 'None',
-            // secure:true (?)
+            secure:true,
             maxAge: 24 * 60 * 60 * 1000
         })
 
         // Frontend: Secure the accessToken in memory
-        res.json({ accessToken });
+        res.json({ roles, accessToken });
     } else {
         res.sendStatus(401); // Unauthorized
     }

@@ -167,3 +167,17 @@
 20220507	16:26:57	75795065-5d6c-4e73-932f-792e76f73110	POST	undefined	/auth
 20220507	16:27:34	d67d92fa-6162-422b-885c-d783174c2269	GET	undefined	/employees
 20220507	16:27:47	4051b886-52cb-4716-97b2-56e104abde0f	DELETE	undefined	/employees
+20220507	19:42:41	65218dbb-abad-4e60-8327-c477628f5c0c	OPTIONS	http://localhost:3000	/auth
+20220507	19:42:41	706494ef-a8af-470e-b676-a1c6dea134ff	POST	http://localhost:3000	/auth
+20220507	19:42:50	d1ee5035-0159-401d-8d64-9a149fcb0b3f	OPTIONS	http://localhost:3000	/auth
+20220507	19:42:50	58a0faff-7fda-4041-ad02-a90884e771fc	POST	http://localhost:3000	/auth
+20220507	19:43:28	2bbb19fa-0257-4541-a416-af0d8e806384	OPTIONS	http://localhost:3000	/auth
+20220507	19:43:28	f2bff4b4-4fd1-4ee3-8cb6-0d8c0efff67d	POST	http://localhost:3000	/auth
+20220507	19:43:31	58a99952-9003-4a4c-9b14-ab9185939136	POST	http://localhost:3000	/auth
+20220507	19:43:34	27b5561f-3e84-4c14-9601-71045e5e05cc	OPTIONS	http://localhost:3000	/auth
+20220507	19:43:34	2a6ab9c8-ebd2-4938-aa37-f8de13d86b27	POST	http://localhost:3000	/auth
+20220507	19:43:37	fcb546a9-52ff-49e6-b258-7b0f0abc64ed	POST	http://localhost:3000	/auth
+20220507	19:43:55	7adaa510-9d4c-4369-ab38-747c54f11ddc	OPTIONS	http://localhost:3000	/auth
+20220507	19:43:55	a5b7dd32-637c-409c-ab74-20ac74cbbe7a	POST	http://localhost:3000	/auth
+20220507	19:44:25	9e994be5-4567-44cd-a181-c9b933697c9b	OPTIONS	http://localhost:3000	/auth
+20220507	19:44:25	adc6c3cd-452a-49e8-b501-4517514aae86	POST	http://localhost:3000	/auth
