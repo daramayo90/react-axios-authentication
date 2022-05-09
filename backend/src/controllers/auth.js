@@ -12,7 +12,8 @@ const login = async (req, res) => {
     const foundUser = await User.findOne({ username: user }).exec();
 
     if (!foundUser) {
-        return res.sendStatus(401); // Unauthorized
+        //return res.sendStatus(401); // Unauthorized
+        return res.status(401).json({ 'message': 'Unauthorized.' });
     };
 
     // Evaluate password
@@ -54,7 +55,8 @@ const login = async (req, res) => {
         // Frontend: Secure the accessToken in memory
         res.json({ roles, accessToken });
     } else {
-        res.sendStatus(401); // Unauthorized
+        //res.sendStatus(401); // Unauthorized
+        return res.status(401).json({ 'message': 'Unauthorized.' })
     }
 }
 
