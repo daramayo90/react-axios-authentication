@@ -1,7 +1,7 @@
 import axios from '../api/axios';
 import useAuth from './useAuth';
 
-function useRefreshToken() {
+const useRefreshToken = () => {
     const { setAuth } = useAuth();
 
     const refresh = async () => {
@@ -17,7 +17,11 @@ function useRefreshToken() {
             console.log(response.data.accessToken);
 
             // Override the accessToken with the new one
-            return { ...prev, accessToken: response.data.accessToken } 
+            return { 
+                ...prev, 
+                roles: response.data.roles,
+                accessToken: response.data.accessToken 
+            } 
         });
 
         return response.data.accessToken;
