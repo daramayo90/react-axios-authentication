@@ -41,7 +41,6 @@ function Login() {
       );
 
       console.log(JSON.stringify(response?.data));
-      //console.log(JSON.stringify(response));
 
       const accessToken = response?.data?.accessToken;
       const roles = response?.data?.roles;
@@ -106,7 +105,6 @@ function Login() {
         Need an Account?
         <br />
         <span className="line">
-          {/*put router link here*/}
           <Link to="/register">Sign Up</Link>
         </span>
       </p>
