@@ -707,3 +707,5 @@
 20220509	21:03:05	514cc745-8ff8-4b16-89b2-7d38a8065c4f	GET	http://localhost:3000	/users
 20220509	21:03:07	a1a744f0-d7eb-4f60-833f-99c616ac2690	GET	http://localhost:3000	/refresh
 20220509	21:03:07	004ce14f-e44a-4251-9f9c-bdd924b46f2c	GET	http://localhost:3000	/refresh
+20220509	21:04:16	7e0be73b-c2a0-49d1-a0e9-cc5f71cbd567	GET	http://localhost:3000	/refresh
+20220509	21:04:16	6b46c891-2a7b-4652-b8c6-5e2b1556c197	GET	http://localhost:3000	/refresh
