@@ -63,7 +63,11 @@ So, why choose nosql databases and what are the advantages of using mongobb?
 
 `Flexibility:` It's very easy to make structural changes like adding a new field without wreaking havoc in your total structure. It's like adding a new property to an object.
 
+<<<<<<< HEAD
 `Scalability:` nosql can support large databases with high request rates at a very low latency
+=======
+`Scalability:` nosql can support large databases with high request rates at a very low latency.
+>>>>>>> a7acea54f2f9c7689ed3fd4c50a303b46d1a9c3e
 
 `Usability:` As you'll see today we can get up and running with mongodb in the cloud very fast.
 
