@@ -58,10 +58,10 @@ A collection holds all of the data about a user for example, istead of breaking 
 Likewise duplicating and distributing the data where deemed necessary in a nosql structure is permitted.
 
 So, why choose nosql databases and what are the advantages of using mongobb?
-# `Performance:` The speed at which a collection is queried is very fast.
-# `Flexibility:` It's very easy to make structural changes like adding a new field without wreaking havoc in your total structure. It's like adding a new property to an object.
-# `Scalability:` nosql can support large databases with high request rates at a very low latency
-# `Usability:` As you'll see today we can get up and running with mongodb in the cloud very fast.
+`Performance:` The speed at which a collection is queried is very fast.
+`Flexibility:` It's very easy to make structural changes like adding a new field without wreaking havoc in your total structure. It's like adding a new property to an object.
+`Scalability:` nosql can support large databases with high request rates at a very low latency
+`Usability:` As you'll see today we can get up and running with mongodb in the cloud very fast.
 
 
 mongodb+srv://daramayo90:<password>@cluster0.gwkve.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
